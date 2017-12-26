@@ -10,14 +10,14 @@ module.exports = {
     devtool: 'inline-source-map',
     module: {
         rules: [
-            {
-                test: /jquery[\/\\]dist[\/\\]jquery.min.js/,
-                loader: 'script-loader'
-            },
-            {
-                test: /socket.io-client[\/\\]dist[\/\\]socket.io/,
-                loader: 'script-loader'
-            },
+            // {
+            //     test: /jquery[\/\\]dist[\/\\]jquery.min.js/,
+            //     loader: 'script-loader'
+            // },
+            // {
+            //     test: /socket.io-client[\/\\]dist[\/\\]socket.io/,
+            //     loader: 'script-loader'
+            // },
             {
                 test: /\.tsx?$/,
                 loader: 'ts-loader',

@@ -1,3 +1,10 @@
 import './main.css';
-import 'jquery/dist/jquery.min';
-import 'socket.io-client/dist/socket.io';
+import * as $ from 'jquery';
+import * as io from 'socket.io-client';
+import * as Backbone from 'backbone';
+import * as _ from 'underscore';
+
+console.log($);
+console.log(io);
+console.log(Backbone);
+console.log(_);
